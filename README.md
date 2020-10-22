@@ -1,5 +1,3 @@
-how to check? open with index.html
-
 #上传代码到github步骤
 
 + 首次配置仓库添加
