@@ -1,8 +1,8 @@
 #上传代码到github步骤
 
 + 首次配置仓库添加
-  git config --global user.name "xiaoming"
-  git config --global user.email "xm@sina.com"
+  1.git config --global user.name "xiaoming"
+  2.git config --global user.email "xm@sina.com"
 + 在项目目录右键打开 git bash, 创建(初始化)仓库 git init  
 + git add 命令把项目添加到仓库,（git add .把该目录下的所有文件添加到仓库，注意点是用空格隔开的）
 + git commit -m "first commit" 把项目提交到仓库(引号是提交的日志/这是对这次添加的东西的说明)
