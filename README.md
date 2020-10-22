@@ -17,10 +17,17 @@
 
 #更新github上的代码
 + 项目目录右键打开 git bash
-+ git pull 把已有的项目拉取下来
++ git clone 把已有的项目克隆下来 
 + git status查看状态,可以查看是否有更新的地方
 + git add * --代表更新全部
 + git commit -m "更新说明"，commit只是提交到缓存区域
 + git pull(如果多人同时开发维护代码，得先拉取当前分支最新代码)
 + git push 推送代码
 + 回到github上刷新页面
+
+- 在项目文件夹右键打开 git bash
+- git pull
+- git status查看状态,可以查看是否有更新的地方
+- git add * --代表更新全部
+- git commit -m "更新说明"，commit只是提交到缓存区域
+- git push
