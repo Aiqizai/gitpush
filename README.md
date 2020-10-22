@@ -10,6 +10,8 @@
 + git push -u origin master, 把本地库的所有内容推送到远程仓库
 
 #复制远程代码
++ 新建文件夹存放克隆的项目
++ 在文件夹内部右键打开 git bash
 + git clone [url] 
 + url: 远程仓库的地址
 
