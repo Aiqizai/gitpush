@@ -25,6 +25,7 @@
 + git push 推送代码
 + 回到github上刷新页面
 
+#个人操作
 - 在项目文件夹右键打开 git bash
 - git pull
 - git status查看状态,可以查看是否有更新的地方
