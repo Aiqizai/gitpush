@@ -9,6 +9,11 @@
 + git remote add origin 复制的ssh地址, 与仓库建立连接 复制ssh地址,打开创建的仓库,复制仓库的ssh地址,
 + git push -u origin master, 把本地库的所有内容推送到远程仓库
 
+#如果想把这个项目要上传到其他仓库
++git remote rm origin // 移除本地关联
++再进行上面那个提交那个步骤
+
+
 #复制远程代码
 + 新建文件夹存放克隆的项目
 + 在文件夹内部右键打开 git bash
