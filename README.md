@@ -10,8 +10,8 @@
 + git push -u origin master, 把本地库的所有内容推送到远程仓库
 
 #如果想把这个项目要上传到其他仓库
-+git remote rm origin // 移除本地关联
-+再进行上面那个提交那个步骤
++ git remote rm origin // 移除本地关联
++ 再进行上面那个提交那个步骤
 
 
 #复制远程代码
