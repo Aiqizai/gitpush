@@ -1,4 +1,4 @@
-#上传代码到github步骤
+## 上传代码到github步骤
 
 + 首次配置仓库添加
   1.git config --global user.name "xiaoming" /
@@ -15,13 +15,13 @@
 + git push -u origin master // 注意：更改后，第一次上传需要指定 origin
 
 
-#复制远程代码
+## 复制远程代码
 + 新建文件夹存放克隆的项目
 + 在文件夹内部右键打开 git bash
 + git clone [url] 
 + url: 远程仓库的地址
 
-#更新github上的代码
+## 更新github上的代码
 + 项目目录右键打开 git bash
 + git clone 把已有的项目克隆下来 
 + git status查看状态,可以查看是否有更新的地方
@@ -31,7 +31,11 @@
 + git push 推送代码
 + 回到github上刷新页面
 
-#个人操作
+## 更改远程仓库地址
++ git remote -v   //查看fetch和push路径
++ git remote set-url origin "https://github.com/xxx/xxx.git"  //修改远程路径
+
+## 个人操作
 - 在项目文件夹右键打开 git bash
 - git pull
 - git status查看状态,可以查看是否有更新的地方
